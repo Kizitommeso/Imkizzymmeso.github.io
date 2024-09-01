@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Page</title>
+</head>
+<body>
+    <div class="container">
+       <div class="edu-pic">
+        <img src="./images-media/Edu_img.jpeg" alt="Books et al">
+       </div>
+        <div>
+        <h3>Already an Altschooler? <a href="">Sign In!</a></h3>
+        <form action="" class="sign-up">
+        <h1>Signup</h1>
+        <p>Take the next steps to apply at Altschool Africa</p>
+        <div class="form">
+        <div class="fill">
+            <!-- <label for="">First Name</label> -->
+            <input type="text" name="name" id="firstname" placeholder="Enter first name">
+            <!-- <label for="">Last Name</label> -->
+            <input type="text" name="name" id="lastname" placeholder="Enter last name">
+        </div>
+        <div class="fill">
+            <!-- <label for="">Gender</label> -->
+            <select name="gender" id="gender">
+            <option value="" disabled selected hidden>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <!-- <label for="">Date of Birth</label> -->
+        <input type="date" name="dateofbirth" id="dateofbirth">
+        </div>
+        <div class="fill">
+            <!-- <label for="">Email Address</label> -->
+            <input type="email" name="email" id="email" placeholder="Enter email address">
+            <!-- <label for="" class="side">Phone Number</label> -->
+            <input type="text" name="number" id="number" placeholder="Phone number">
+        </div>
+        <div class="fill">
+            <!-- <label for="">Country</label> -->
+        <select name="gender" id="gender">
+            <option value="" disabled selected hidden>Select your Country</option>
+            <option value="ng">Nigeria</option>
+            <option value="Kenya">Kenya</option>
+            <option value="ghana">Ghana</option>
+        </select>
+        <!-- <label for="">State/City of Residence</label> -->
+        <input type="text" name="state" id="state" placeholder="State/City of residence">
+        </div>
+        <div class="fill">
+            <!-- <label for="">How did you hear about us?</label> -->
+            <select name="info" id="info">
+                <option value="" disabled selected hidden>Select channel</option>
+                <option value="">Twitter</option>
+                <option value="">Facebook</option>
+                <option value="">Linkedin</option>
+                <option value="">Youtube</option>
+                <option value="">Friend</option>
+                <option value="">Whatsapp</option>
+                <option value="">Instagram</option>
+                <option value="">Billboard</option>
+                <option value="">Sales officers</option>
+                <option value="">Others</option>
+            </select>
+        </div>
+        <div class="fill">
+            <!-- <label for="">Password</label> -->
+            <input type="password" name="password" id="password" placeholder="Enter password">
+            <!-- <label for="">Confirm Password</label> -->
+            <input type="password" name="password" id="password" placeholder="Confirm password">
+        </div>
+        <p>By clicking continue, I agree to  <span><a href="">Terms of Use</a></span> and acknowledge that I
+            have read the <span><a href="">Privacy Policy</a></span>.</p>
+            <input type="submit" value="Submit" class="btn">
+        </div>   
+        </div> 
+    </form>
+</div>
+</body>
+</html>
